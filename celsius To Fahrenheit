@@ -1,0 +1,9 @@
+function celsiusToFahrenheit(celsius) {
+    return (celsius * 9/5) + 32;
+}
+
+// Example usage:
+const celsius = prompt("Enter temperature in Celsius:");
+const fahrenheit = celsiusToFahrenheit(parseFloat(celsius));
+
+alert(`${celsius} °C is equal to ${fahrenheit.toFixed(2)} °F`);
